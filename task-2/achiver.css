@@ -1,0 +1,616 @@
+
+.parent-flex{
+    display: flex;
+    background-color:#343a40;
+}
+.child1{
+    flex: 3px; 
+    width: 100px;
+    /* margin-right: 70px;    */
+
+}
+.a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.li1 :hover{
+    color: orangered;
+}
+.li1{
+    text-decoration: none;
+    font-size: 17px; 
+    padding: 20px;
+}
+ /* .a:hover{
+    color: orangered !important;
+}  */
+.head{
+    text-align: center;
+    list-style: none;
+    display: inline-flex; 
+}
+
+.course{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.parent2 li:hover{
+    background-color: orangered;
+    border-radius: 50px;
+}
+.python{
+    margin-left: 500px;
+    margin-top: -220px;
+    color: white;
+}
+.thing{
+    margin-left: 700px;
+    color: white;
+    background-color: orangered;
+    height: 50px;
+    border: none;
+}
+.thing:hover{
+    background-color: blue;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 70px;
+}
+.btm{
+    display: flex;
+    flex: 1px;
+}
+.kmore{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(92,49,133);
+}
+.c{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(37,33,33);
+    padding: 2px;
+    align-items: center;
+}
+.c:hover{
+    background-color:orangered;
+    color: white;
+    border-radius: 20px;
+}
+.parent4 ul li{
+    list-style: none;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 40px 40px 0px 55px;
+}
+.tc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 50px;
+    margin-bottom: 20px;
+}
+#naveen{
+    font-size: 100px;
+    
+}
+.ntr{
+    margin-top: 30px;
+}
+.middle{
+    margin-top: 130px;
+}
+.middle1{
+    display: flex;
+}
+.submiddle{
+    margin: 20px;
+    border: 1px solid black;
+}
+.middile2{
+    display: flex;
+}
+.submiddle1{
+    margin: 20px;
+    border: 1px solid black;
+ }
+.ang{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    color: rgb(160, 23, 23);
+    padding: 30px;
+    background: #FFA17F;
+    background: -webkit-linear-gradient(to right,#00223E,#FFA17F);
+    background: linear-gradient(to right,#00223e,#ffa17f);
+}
+.ang1{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #D38312;
+    background: -webkit-linear-gradient(to life,#A83279,#D38312);
+    background:linear-gradient(to life,#A83279,#D38312) ;
+    
+}
+.r{
+    width: 50px;
+}
+.fa{
+    font-size: 20px;
+}
+.ang2{
+     line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;   
+    background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .ang3{
+      line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+     background: #D3959B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  .ang4{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #f2709c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .ang5{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #50C9C3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .ang6{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #c21500;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .ang7{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .ra{
+      margin-left: 50px;
+  }
+  .ang8{
+  line-height: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  border-bottom: 1px solid rgb(243,233,233);
+  align-items: center;
+  color: white;
+  padding: 10px;   
+  background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .ang9{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .ang10{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .ang11{
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-bottom: 1px solid rgb(243,233,233);
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .middle3{
+      display: flex;
+  }
+  .submiddle2{
+      margin: 20px;
+      border: 1px solid black;
+  }
+  .dtc{
+      margin-left: 50px;
+  }
+  .lap{
+      display: flex;
+      margin: 30px 80px;
+  }
+  .dtc{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 30px 50px 10px;
+}
+.lap1{
+    flex: 1;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.far{
+    font-size: 40px;
+    color: rgb(116,166,167);
+}
+.lap21{
+    display: flex;
+    margin: 30px 80px;
+}
+.enroll{
+    background: blue;
+}
+.grow{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.rrr{
+    padding: 10px;
+    color: rgb(105,70,204);
+}
+.rrr:hover{
+    background-color: red;
+    color: white;
+}
+.achiver{
+    margin: 50px;
+}
+.edge{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 50px;
+}
+.achiver .fas{
+    color:black;
+    font-size: 50px;
+    color: rgb(119,50,177);
+}
+.it{
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    justify-content: center;
+}
+.dec{
+    flex: 1;
+    text-align: center;
+    margin: 0px 10px;
+    line-height: 1opx;
+    padding: 5px 0px;
+}
+.dec:hover{
+    border: 2px solid rgb(223,283,283);
+}
+.time{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cour{
+    text-align: center;
+    color: rgb(15,15,121);
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 10px;
+}
+.pop{
+    display: flex;
+}
+.p1{
+    flex: 1;
+    border: 1px solid rgb(223,283,283);
+}
+.p2{
+    flex: 1;
+    border:1px solid rgb(223,283,283) ;
+}
+.p3{
+flex: 1;
+border:1px solid rgb(223,283,283) ;
+}
+.p4{
+    flex: 1;
+    border:1px solid rgb(223,283,283) ;
+}
+.p1:hover{
+    background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+.p2:hover{
+    background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+.p3:hover{
+    background: #D66D75;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+.p4:hover{
+    background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+.pop1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: opx 20px;
+}
+.otf{
+    margin-left: 50px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 5pxpx;
+}
+.pics{
+    flex: 1px;
+    padding: 10px;
+    border: 1px solid rgb(223,283,283);
+    margin: 0px 20px;
+    background: #8c8fbb;
+    background: -webkit-linear-gradient(to lift #f8c4c4,#FFEFBA);
+    background: -webkit-linear-gradient(to life #FFFFFF,#FFEFBA);
+}
+.pic1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 5pxpx;
+}
+.pics11{
+    flex: 1px;
+    padding: 10px;
+    border: 1px solid rgb(223,283,283);
+    margin: 0px 20px;
+    background: #8c8fbb;
+    background: -webkit-linear-gradient(to lift #e2c9c9,#e2cf8e);
+    background: -webkit-linear-gradient(to life #a58282,#88816a);
+}
+.ch{
+    margin-left: 50px;
+}
+.laa{
+    margin-left: 50px;
+}
+.end{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.laa1{
+    display: flex;
+    align-self: center;
+    padding: 20px 50px;
+    margin: 20px 10px;
+    line-height: 50px;
+}
+.job{
+    flex: 1;
+}
+.job2{
+    flex: 1;
+}
+.loop1{
+    background-image: url(./images/back-6.jpg);
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+.loop2{
+    background-image: url(./images/back-6.jpg);
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+.loop3{
+    background-image: url(./images/back-6.jpg);
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+.loop4{
+    background-image: url(./images/back-6.jpg);
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+.loop5{
+    background-image: url(./images/back-6.jpg);
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+.loop6{
+    background-image: url(./images/back-6.jpg);
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 4px;
+}
+ .pen{ 
+    background-image: url(./images/edureka-business.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: white;
+    height: 300px;
+}
+
+.bus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pen1{
+    padding: 10px 150px;
+}
+.bus1{
+    margin: 10px 10px;
+    padding: 22px 4px;
+ } 
+.contact{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact:hover{
+    background-color: orangered;
+    color: white;
+}
+.nn{
+    margin-left: 50px;
+}
+.nn1{
+    display: flex;
+
+    margin: 10px 60px;
+    padding: 10px 40px;
+    flex: 1;
+    margin-left: 50px;
+}
+.footer{
+    background-color: black;
+}
+.footer1{
+    display: flex;
+    border: 1px solid white;
+}
+.foot{
+    flex: 1;
+}
+.opp{
+    color: rgb(194,152,159);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 30px;
+}
+.footpara{
+    color: rgb(155,108,116);
+    margin: 10px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.opp1{
+    color: white;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.fflx{
+    display: flex;
+    color: white;
+}
+.fflxpara{
+    color: white;
+    flex: 4.5;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
