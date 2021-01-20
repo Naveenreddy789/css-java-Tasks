@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr,i,j,n,sum,newArray;
+              arr = [2,3,5, 7,9,0];
+               newArray=[];
+             
+             function pair(a,n){
+        
+             for(i=0;i<a.length;i++){
+             for(j=i+1;j<a.length;j++){
+        
+                     if(a[i] +a[j]==n){
+         
+                  newArray.push([a[i],a[j]]); 
+                     }
+                 }
+             }
+        }
+        pair(arr, 10);
+        document.write(newArray);
+        </script>
+    
+</body>
+</html>
